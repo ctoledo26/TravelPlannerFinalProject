@@ -36,10 +36,4 @@ public class DefaultActivityService implements ActivityService {
 		return activityDao.createActivity(activity_name, description,location);
 	}
 
-	@Override
-		public List<Activity> fetchAllActivities() {
-		    log.info("Fetching all activities...");
-		    return activityDao.fetchAllActivities();
-		}
-
 	}
