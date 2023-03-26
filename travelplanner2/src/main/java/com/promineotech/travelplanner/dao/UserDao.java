@@ -30,7 +30,7 @@ public class UserDao implements DefaultUserDao {
     @Override
     public List<User> fetchUserById(int user_id) {
         String sql = ""
-        		 + "SELECT user_id,name, email "
+        	 + "SELECT * "
                  + "FROM users "
                  + "WHERE user_id = :user_id ";
 
