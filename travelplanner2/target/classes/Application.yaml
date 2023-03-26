@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: travelplanner
+    username: travelplanner
+    url: jdbc:mysql://localhost:3306/travel-planner
+     
+logging:
+  level:
+    root: warn
+    '[com.promineotech]' : debug
