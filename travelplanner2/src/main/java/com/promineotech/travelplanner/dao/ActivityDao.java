@@ -24,7 +24,7 @@ import com.promineotech.travelplanner.entity.Activity;
 	    @Override
 	    public List<Activity> fetchActivityById(int activity_id) {
 	        String sql = ""
-	                + "SELECT activity_id "
+	                + "SELECT * "
 	                + "FROM activities "
 	                + "WHERE activity_id = :activity_id ";
 
